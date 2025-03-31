@@ -1,8 +1,8 @@
-// let score = "33ab"
+let score = "33ab"
 
 // console.log(typeof score);
 
-// let valInNum = Number(score)
+let valInNum = Number(score)
 // console.log(typeof valInNum);
 // console.log(valInNum); //not a num NaN
 
@@ -13,10 +13,10 @@
 
 
 
-// let isLoggedIn = 1
+let isLoggedIn = 1
 // console.log(typeof isLoggedIn);
 
-// isLoggedIn = Boolean(isLoggedIn)
+isLoggedIn = Boolean(isLoggedIn)
 // console.log(typeof isLoggedIn);
 // console.log(isLoggedIn);
 
@@ -26,8 +26,30 @@
 
 
 let num = 11
-console.log(typeof num);
+// console.log(typeof num);
 
 num = String(num)
-console.log(typeof num);
-console.log(num);
+// console.log(typeof num);
+// console.log(num);
+
+
+
+
+
+// ******operations*****
+
+let val = 3
+let negVal = -val
+// console.log(negVal);
+
+// console.table([2+2,2-2,2*2,2**3,2/3,2%3]);
+
+let s1 = "hello"
+let s2 = " divyansh"
+let s3 = s1 + s2
+// console.log(s3);
+
+console.log("1"+2);//12
+console.log(1+"2");//12
+console.log("1"+2+2);//122
+console.log(1+2+"2");//32
